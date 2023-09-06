@@ -1,0 +1,26 @@
+
+h3, h1, p {
+    font-family:'Courier New', Courier, monospace;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.script {
+    text-align: center
+}
+
+.person {
+    text-align: center;
+    font-weight: bold;
+}
+
+.heading {
+    border-bottom: 2px solid;
+    margin-left: 100px;
+    margin-right: 100px;
+}
