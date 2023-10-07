@@ -1,0 +1,134 @@
+html {
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header {
+    background-image: url("../img/image.jpg");
+    text-align: center;
+}
+
+#firstsection {
+    background-color:#fffdd0;
+}
+
+#secondsection {
+    background-color: #35AD6B;
+}
+
+#thirdsection {
+    background-color:#fffdd0;
+}
+
+#lastsection {
+    background-color: #35AD6B;
+}
+
+h1,h2,h3,p {
+    margin: 0;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+h3 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -8px;
+    margin-bottom: 33px;
+}
+
+h4 {
+    text-align: left;
+    font-size: 20px;
+    margin-top: -2px;
+}
+
+li div p {
+    text-align: left;
+    margin-top: -19px;
+    padding-right: 21px;
+}
+
+.column_container {
+    width: 960px;
+    margin: auto;
+    padding-top: 48px;
+}
+
+header .column_container {
+    padding-top: 152px;
+    padding-bottom: 188px;
+}
+
+#firstsection .column_container {
+    padding-bottom: 57px;
+}
+
+#secondsection .column_container {
+    padding-bottom: 21px;
+}
+
+#thirdsection .column_container {
+    padding-bottom: 99px;
+}
+
+#thirdsection div h3 {
+    margin-top: -6px;
+}
+
+#thirdsection div p {
+    font-size: 26px;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+#bigPhoto {
+    width: 400px;
+    height: 300px;
+    float: right;
+    margin: 0rem 0rem 1.5rem 2.5rem;
+}
+
+#smallPhoto {
+    width: 200px;
+    height: 150px;
+    float: left;
+    padding-right: 12px;
+}
+
+p {
+    line-height: 1.4;
+    font-size: 18px;
+    /* margin-bottom: 13px; */
+    margin-top: 16px;
+}
+
+.grid {
+    padding: 0;
+}
+
+.grid li {
+    display: block;
+    width: 50%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.using-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#footer {
+    font-size: 18px;
+    padding-bottom: 39px;
+    margin-top: -7px;
+}
