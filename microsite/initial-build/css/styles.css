@@ -1,0 +1,245 @@
+html {
+    font-family: 'Poly', serif;
+    font-family: 'Pompiere', sans-serif;
+    background-color: #FFF8E8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Poly', serif;
+    letter-spacing: 0.7;
+}
+
+
+.homeNav a {
+    font-family: 'Pompiere', sans-serif;
+    font-size: 48px;
+    color: black;
+    text-decoration: none;
+}
+
+li a{
+    font-family: 'Pompiere', sans-serif;
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 3%;
+    background-color: #FFF8E8;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding-bottom: 0px;
+}
+
+.otherPagesNav li {
+    display: inline-block;
+    padding: 0px 7vw 15px;
+}
+
+.otherPagesNav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.otherPagesNav li #earlyLife:hover {
+    color: #F8160A;
+}
+
+.otherPagesNav li #writing:hover {
+    color: #FF8A00;
+}
+
+.otherPagesNav li #deathAndLegacy:hover {
+    color: #00C108;
+}
+
+.otherPagesNav li #sources:hover {
+    color: #007CEE;
+}
+
+.otherPagesNav::after {
+    content: '';
+    border-bottom: 2px solid black;
+    display: block;
+}
+
+.homeGrid {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.homeGrid > * {
+    width: 33.33%;
+    overflow: hidden;
+}
+
+.homeColumn1 {
+    padding-top: 100px;
+    text-align: left;
+}
+
+.homeColumn1 > p {
+    padding-left: 20%;
+    padding-right: 12%;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.homeColumn1 > img {
+    padding-top: 80px;
+    margin-left: -80px;
+    width: 110%;
+}
+
+.homeColumn2 {
+    padding-top: 300px;
+    text-align: center;
+}
+
+.homeColumn2 > h1 {
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 102px;
+    letter-spacing: 3px;
+}
+
+.homeColumn2 > #firstHomePara {
+    padding-top: 500px;
+}
+
+.homeColumn2 > p {
+    text-align: left;
+    padding-top: 30px;
+    font-size: 22px;
+    line-height: 2.1;
+}
+
+.homeColumn3 {
+    margin-top: -40px;
+}
+
+.sectionTitle {
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.sectionTitle > h3 {
+    font-size: 48px;
+    letter-spacing: 3px;
+    padding: 10px 80px 10px 80px;
+    display: inline;
+    border: 2px solid black;
+}
+
+.sectionGrid {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.sectionGrid > .sectionColumn1 {
+    width: 50%;
+    overflow: hidden;
+    display: block;
+}
+
+.sectionGrid > .sectionColumn2 {
+    width: 35%;
+    overflow: hidden;
+}
+
+.sectionGrid > .sectionColumn3 {
+    width: 15%;
+    overflow: hidden;
+}
+
+.sectionColumn1 {
+    text-align: center;
+}
+
+.sectionColumn1 > h4{
+    font-size: 32px;
+    letter-spacing: 3px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:inline-block;
+    border: 2px solid black;
+}
+
+
+/* image css */
+.sectionColumn1Img {
+    margin-top: 150px;
+    display: block;
+}
+
+.sectionColumn1Img > img {
+    width: 80%;
+}
+
+.sectionColumn3 > #earlyLifeImg1 {
+    width: 200%;
+}
+
+.sectionColumn1Img > #earlyLifeImg2 {
+    margin-top: 200px;
+    width: 100%;
+    margin-left: -400px;
+}
+
+.sectionColumn1Img > #earlyLifeImg3 {
+    width: 80%;
+    margin-left: -300px;
+}
+
+.sectionColumn1Img > #earlyLifeImg4 {
+    margin-top: 200px;
+    width: 70%;
+    margin-left: -300px;
+    /* margin-bottom: -200px; */
+}
+
+
+
+.sectionColumn2 > p {
+    text-align: left;
+    font-size: 22px;
+    line-height: 2;
+    padding-bottom: 50px;
+    padding-right: 10%
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 3%;
+    background-color: #D2CBB9;
+    padding-bottom: 40px;
+    font-size: 16px;
+    /* margin-top: 50px; */
+}
+
+#copyright {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+#sourcedContent {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
