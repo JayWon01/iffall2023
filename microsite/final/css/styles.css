@@ -1,0 +1,806 @@
+html {
+    font-family: 'Poly', serif;
+    font-family: 'Pompiere', sans-serif;
+    background-color: #FFF8E8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: 'Poly', serif;
+    letter-spacing: 0.7;
+}
+
+
+.homeNav a {
+    font-family: 'Pompiere', sans-serif;
+    font-size: 48px;
+    color: black;
+    text-decoration: none;
+}
+
+li a{
+    font-family: 'Pompiere', sans-serif;
+    font-size: 36px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 3%;
+    background-color: #FFF8E8;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    padding-bottom: 0px;
+}
+
+.otherPagesNav li {
+    display: inline-block;
+    padding: 0px 7vw 15px;
+}
+
+.otherPagesNav li a {
+    transition: all 0.3s ease 0s;
+}
+
+.otherPagesNav li #earlyLife:hover {
+    color: #E02939;
+}
+
+.otherPagesNav li #writing:hover {
+    color: #EB6231;
+}
+
+.otherPagesNav li #deathAndLegacy:hover {
+    color: #6A6A1C;
+}
+
+.otherPagesNav li #books:hover {
+    color: #4A7F8B;
+}
+
+.active#earlyLife {
+    color: #E02939;
+}
+
+.active#writing {
+    color: #EB6231;
+}
+
+.active#deathAndLegacy {
+    color: #6A6A1C;
+}
+
+.active#books {
+    color: #4A7F8B;
+}
+
+.otherPagesNav::after {
+    content: '';
+    border-bottom: 2px solid black;
+    display: block;
+}
+
+.homeGrid {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+.homeGrid > * {
+    width: 33.33%;
+    overflow: hidden;
+}
+
+.homeColumn1 {
+    padding-top: 100px;
+    text-align: left;
+}
+
+.homeColumn1 > p {
+    padding-left: 20%;
+    padding-right: 12%;
+    font-size: 22px;
+    line-height: 1.6;
+}
+
+.homeColumn1 > img {
+    padding-top: 80px;
+    margin-left: -80px;
+    width: 110%;
+}
+
+.homeColumn2 {
+    padding-top: 300px;
+    text-align: center;
+}
+
+.homeColumn2 > h1 {
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 104px;
+    letter-spacing: 3px;
+}
+
+.homeColumn2 > h1 > span {
+    letter-spacing: -13px;
+}
+
+.homeAboutText {
+    margin-top: -200px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+.homeAboutText > #firstHomePara {
+    padding-top: 500px;
+}
+
+.homeAboutText > p {
+    text-align: left;
+    padding-top: 30px;
+    font-size: 22px;
+    line-height: 2.1;
+}
+
+.homeColumn3 {
+    margin-top: -40px;
+}
+
+.sectionTitle {
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.sectionTitle > h3 {
+    font-size: 80px;
+    letter-spacing: 8px;
+    padding: 10px 80px 10px 80px;
+    display: inline;
+}
+
+.sectionGrid {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.sectionGrid > .sectionColumn1 {
+    width: 50%;
+    overflow: hidden;
+    display: block;
+}
+
+.sectionGrid > .sectionColumn2 {
+    width: 35%;
+    overflow: hidden;
+}
+
+.sectionGrid > .sectionColumn3 {
+    width: 15%;
+    overflow: hidden;
+}
+
+.sectionColumn1 {
+    text-align: center;
+}
+
+.sectionColumn1 > h4{
+    font-size: 40px;
+    letter-spacing: 3px;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display:inline-block;
+    /* border: 2px solid black; */
+}
+
+
+/* image css */
+.sectionColumn1Img {
+    margin-top: 150px;
+    display: block;
+}
+
+.sectionColumn1Img > img {
+    width: 80%;
+}
+
+.sectionColumn3 > #earlyLifeImg1 {
+    width: 200%;
+}
+
+.sectionColumn1Img > #earlyLifeImg2 {
+    margin-top: 200px;
+    width: 100%;
+    margin-left: -400px;
+}
+
+.sectionColumn1Img > #earlyLifeImg3 {
+    width: 80%;
+    margin-left: -300px;
+}
+
+.sectionColumn1Img > #earlyLifeImg4 {
+    margin-top: 200px;
+    width: 70%;
+    margin-left: -300px;
+    /* margin-bottom: -200px; */
+}
+
+
+
+.sectionColumn2 > p {
+    text-align: left;
+    font-size: 22px;
+    line-height: 2;
+    padding-bottom: 50px;
+    padding-right: 10%
+}
+
+.bookGrid img {
+    width: 65%;
+    aspect-ratio: 16/21;
+    /* height: 30vh; */
+    padding-bottom: 20px;
+}
+
+.bookGrid {
+    padding: 60px;
+}
+
+.bookGrid li {
+    display: block;
+    padding-bottom: 50px;
+}
+
+.bookGrid > li > div {
+    font-family: 'Poly', serif;
+}
+
+.bookGrid li {
+    width: 20%;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+.using-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 3%;
+    background-color: #FFF8E8;
+    padding-bottom: 40px;
+    font-size: 16px;
+    margin-top: -60px;
+    /* margin-top: 50px; */
+}
+
+.footerBorder::before {
+    content: '';
+    border-top: 2px solid black;
+    display: block;
+}
+
+.footerBorderDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 3%; 
+    margin-top: 200px; /* changes margin above footer */
+    background-color: #FFF8E8;
+    top: 0;
+    padding-bottom: 0px;
+}
+
+.footerBorder li {
+    display: inline-block;
+    padding: 0px 7vw 15px;
+    visibility: hidden;
+}
+
+.credits {
+    margin-left: 8vw;
+}
+
+.sources {
+    margin-right: 8vw;
+}
+
+#copyright {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+#sourcedContent {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 1500px){
+    .homeColumn2 > h1 {
+        padding-left: 7%;
+        padding-right: 7%;
+        font-size: 90px;
+        letter-spacing: 3px;
+    }
+}
+
+@media (max-width: 1300px){
+    .homeAboutText {
+        margin-top: -500px;
+        padding-left: 30%;
+        padding-right: 30%;
+    }
+
+    .homeAboutText > p {
+        font-size: 18px;
+    }
+
+    .homeColumn2 > h1 {
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 68px;
+        letter-spacing: 3px;
+    }
+
+    .otherPagesNav li {
+        display: inline-block;
+        padding: 0px 5vw 15px;
+    }
+
+    li a{
+        font-family: 'Pompiere', sans-serif;
+        font-size: 28px;
+        color: black;
+        text-decoration: none;
+    }
+}
+
+@media (max-width: 768px){
+    .homeGrid > .homeColumn1 {
+        width: 50%;
+        grid-column: 2/3;
+        overflow: visible;
+    }
+    .homeGrid > .homeColumn2 {
+        width: 1%;
+        overflow: visible;
+    }
+    .homeGrid > .homeColumn3 {
+        width: 49%;
+        grid-column: 1/2;
+    }
+
+    .homeGrid > * {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .homeColumn1 > img {
+        padding-top: 320px;
+        margin-left: -80px;
+        width: 160%;
+    }
+
+    .homeColumn1 > p {
+        font-size: 22px;
+    }
+
+    
+
+    .homeColumn2 > h1 {
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 80px;
+        letter-spacing: 3px;
+        white-space: nowrap;
+        margin-top: 100px;
+        margin-left: -140px;
+        z-index: 99;
+        position: relative;
+    }
+    .homeAboutText > p {
+        font-size: 22px;
+    }
+
+    .homeAboutText {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #deathAndLegH3 {
+        font-size: 70px;
+        letter-spacing: 3px;
+        padding-left: 0px;
+        padding-right: 2px;
+    }
+
+    .homeColumn3 > img {
+        width: 110%;
+    }
+
+    .bookGrid li {
+        width: 50%;
+    }
+
+    .sectionGrid > .sectionColumn1 {
+        width: 100%;
+        overflow: hidden;
+        display: block;
+    }
+    
+    .sectionGrid > .sectionColumn2 {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .sectionGrid > .sectionColumn3 {
+        width: 100%;
+        overflow: hidden;
+    }
+    .sectionColumn2 > p {
+        text-align: left;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .sectionColumn3 > #earlyLifeImg1 {
+        width: 80%;
+        margin-left: 40px;
+    }
+
+    .sectionColumn1Img > #earlyLifeImg2 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: 5px;
+        margin-bottom: 90px;
+    }
+    
+    .sectionColumn1Img > #earlyLifeImg3 {
+        width: 80%;
+        margin-left: 5px;
+        margin-top: -100px;
+        margin-bottom: 90px;
+    }
+    
+    .sectionColumn1Img > #earlyLifeImg4 {
+        width: 70%;
+        margin-left: -50px;
+        margin-top: -100px;
+        margin-bottom: 90px;
+        /* margin-bottom: -200px; */
+    }
+
+    .sectionColumn1Img > #writingImg1 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -50px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn1Img > #writingImg2 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -50px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn1Img > #writingImg3 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -50px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn1Img > #writingImg4 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -50px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn1Img > #deathLegImg1 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -50px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn1Img > #deathLegImg2 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -50px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn1Img > #deathLegImg3 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -50px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn1Img > #deathLegImg4 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -50px;
+        margin-bottom: 80px;
+    }
+
+    .otherPagesNav li {
+        display: inline-block;
+        padding: 0px 3vw 15px;
+    }
+
+    li a{
+        font-family: 'Pompiere', sans-serif;
+        font-size: 24px;
+        color: black;
+        text-decoration: none;
+    }
+
+}
+
+@media (max-width: 600px){
+    .homeColumn1 > p {
+        font-size: 18px;
+    }
+
+    .homeColumn2 > h1 {
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 80px;
+        letter-spacing: 3px;
+        white-space: nowrap;
+        margin-top: 100px;
+        margin-left: -140px;
+        z-index: 99;
+        position: relative;
+    }
+
+    .homeColumn1 > img {
+        padding-top: 250px;
+        margin-left: -80px;
+        width: 180%;
+    }
+
+    .homeColumn3 > img {
+        width: 150%;
+    }
+
+    #earlyLifeH3 {
+        font-size: 70px;
+        letter-spacing: 3px;
+        padding-left: 0px;
+        padding-right: 2px;
+    }
+}
+
+@media (max-width: 480px){
+    li a{
+        font-family: 'Pompiere', sans-serif;
+        font-size: 17px;
+        color: black;
+        text-decoration: none;
+    }
+    .otherPagesNav li {
+        display: inline-block;
+        padding: 0px 2vw 15px;
+    }
+
+    .homeColumn1 > p {
+        font-size: 16px;
+    }
+
+    .homeColumn2 > h1 {
+        padding-left: 3%;
+        padding-right: 3%;
+        font-size: 70px;
+        letter-spacing: 3px;
+        white-space: nowrap;
+        margin-top: 100px;
+        margin-left: -120px;
+        z-index: 99;
+        position: relative;
+    }
+
+    .homeColumn1 > img {
+        padding-top: 220px;
+        margin-left: -80px;
+        width: 200%;
+    }
+
+    .homeColumn3 > img {
+        width: 150%;
+    }
+
+    .homeAboutText > p {
+        font-size: 18px;
+    }
+
+    .homeAboutText {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .bookGrid li {
+        width: 100%;
+    }
+
+    .sectionTitle > h3 {
+        font-size: 60px;
+        letter-spacing: 4px;
+        padding: 10px 30px 10px 30px;
+        display: inline;
+    }
+    .sectionTitle {
+        padding-top: 80px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .sectionColumn1 > h4{
+        font-size: 40px;
+        letter-spacing: 3px;
+        width: 300px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display:inline-block;
+        /* border: 2px solid black; */
+    }
+    
+    .sectionColumn2 > p {
+        text-align: left;
+        font-size: 18px;
+        line-height: 2;
+        padding-bottom: 50px;
+        padding-right: 10%
+    }
+
+    #deathAndLegH3 {
+        font-size: 50px;
+        padding-left: 0px;
+        padding-right: 2px;
+    }
+
+    .sectionColumn1Img > #deathLegImg1 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -20px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn1Img > #deathLegImg2 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -20px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn1Img > #deathLegImg3 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -20px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn1Img > #deathLegImg4 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -20px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn1Img > #writingImg1 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -20px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn1Img > #writingImg2 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -20px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn1Img > #writingImg3 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -20px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn1Img > #writingImg4 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: -20px;
+        margin-bottom: 80px;
+    }
+
+    .sectionColumn3 > #earlyLifeImg1 {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    .sectionColumn1Img > #earlyLifeImg2 {
+        margin-top: -100px;
+        width: 80%;
+        margin-left: 5px;
+        margin-bottom: 90px;
+    }
+    
+    .sectionColumn1Img > #earlyLifeImg3 {
+        width: 80%;
+        margin-left: 5px;
+        margin-top: -100px;
+        margin-bottom: 90px;
+    }
+    
+    .sectionColumn1Img > #earlyLifeImg4 {
+        width: 70%;
+        margin-left: -10px;
+        margin-top: -100px;
+        margin-bottom: 90px;
+        /* margin-bottom: -200px; */
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 3%;
+        background-color: #FFF8E8;
+        padding-bottom: 40px;
+        font-size: 12px;
+        margin-top: -60px;
+    }
+    .footerBorderDiv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 3%; 
+        margin-top: 80px; /* changes margin above footer */
+        background-color: #FFF8E8;
+        top: 0;
+        padding-bottom: 0px;
+    }
+
+    .credits {
+        margin-left: 4vw;
+    }
+    
+    .sources {
+        margin-right: 2vw;
+    }
+    
+    #copyright {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+    
+    #sourcedContent {
+        padding-top: -20px;
+        padding-bottom: 20px;
+    }
+}
